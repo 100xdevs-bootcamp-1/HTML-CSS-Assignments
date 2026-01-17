@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link href="./styles.css" rel="stylesheet">
+  <script>
+    console.log("hello world")
+    function colorChange(name) {
+      // console.log(name);
+      document.bgColor = name;
+    }
+  </script>
+</head>
+
+<body>
+  <h1>Bg-color-changer</h1>
+  <div class="container">
+    <div class="island">
+      <div class="pill">
+        <div onclick="colorChange('Red')" style="background-color: Red;">Red</div>
+        <div onclick="colorChange('Yellow')" style="background-color: Yellow;">Yellow</div>
+        <div onclick="colorChange('Black')" style="background-color: Black; color:white">Black</div>
+        <div onclick="colorChange('Purple')" style="background-color: Purple;">Purple</div>
+        <div onclick="colorChange('Green')" style="background-color: Green;">Green</div>
+        <div onclick="colorChange('Blue')" style="background-color: Blue;">Blue</div>
+        <div onclick="colorChange('White')" style="background-color: white;">Default</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
