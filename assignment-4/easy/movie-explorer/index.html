@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Explorer App</title>
+    <link href="style.css" rel="stylesheet"/>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <main id="app">
+    <header>
+        <h1 class="content-header">Movie Explorer App</header></h1>
+    <!-- Controler -->
+    <section id="controls">
+        <select id="select-genre" onchange="onSelectGenre(this)"></select>
+        <select id="select-count" onchange="onSelectCount(this)">
+            <option value="1">20</option>
+            <option value="2">40</option>
+            <option value="3">60</option>
+            <option value="4">80</option>
+            <option value="5">100</option>
+        </select>
+
+        <!-- Rating Toggle -->
+         <div class="sorting-wrapper">
+        <span class="sort-by-rating">Sort by Rating</span>
+        <label class="switch">
+            <input type="checkbox" id="sorting-checkbox" onclick="onToggleRating(event)">
+            <span class="slider"></span>
+        </label>
+        </div>
+    </section>
+
+    <!-- Movie Showcase -->
+    <section id="movies-section">
+        <div id="movie-wrapper"></div>
+    </section>
+    </main>
+</body>
+</html>
