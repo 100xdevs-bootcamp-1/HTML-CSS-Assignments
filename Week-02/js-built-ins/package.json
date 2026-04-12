@@ -1,0 +1,26 @@
+{
+  "name": "built-in-func",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test-duplicates": "npx jest ./tests/findDuplicates.test.js",
+    "test-occurrences": "npx jest ./tests/countOccurrences.test.js",
+    "test-unique": "npx jest ./tests/uniqueElements.test.js",
+    "test-nonrepeat": "npx jest ./tests/nonrepeat.test.js",
+    "test-reverseString": "npx jest ./tests/reverseString.test.js",
+    "test-reverseInteger": "npx jest ./tests/reverseInteger.test.js",
+    "test-compressString": "npx jest ./tests/compressStrings.test.js",
+    "test-compressWord": "npx jest ./tests/compressWords.test.js",
+    "test-countChar": "npx jest ./tests/countCharacters.test.js",
+    "test-countVowels": "npx jest ./tests/countVowels.test.js",
+    "test-prime": "npx jest ./tests/prime.test.js",
+    "test-fibonacci": "npx jest ./tests/fibonacci.test.js",
+    "test-perfect": "npx jest ./tests/perfectNumber.test.js",
+    "test-all": "npx jest ./tests/"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

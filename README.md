@@ -1,12 +1,21 @@
-# HTML/CSS Assignments
+# 100xdevs-bootcamp-1 Assignments
 
-These are HTML/CSS Assignments, Here's is the structure of 
-
-  - [assignment-1](assignment-1/README.md)
-  - [assignment-2](assignment-2/README.md)
-  - [assignment-3](assignment-3/README.md)
-  - [assignment-4](assignment-4/README.md)
+All weekly assignments from the cohort.
 
 ---
 
-Happy Coding! 🧡
+## Weeks
+
+* [Week 1](./Week-01)
+* [Week 2](./Week-02)
+* [Week 3–5](./Week-3-to-5)
+* [Week 6](./Week-06)
+* [Week 7–8](./Week-7-to-8)
+* [Week 9](./Week-09)
+* [Week 10](./Week-10)
+* [Week 11](./Week-11)
+
+---
+
+
+

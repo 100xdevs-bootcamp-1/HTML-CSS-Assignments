@@ -1,0 +1,27 @@
+{
+  "name": "middlewares",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test-all": "npm run test-ratelimitter && npm run test-requestcount && npm run test-authmiddleware && npm run test-logIncomingRequests",
+    "test-ratelimitter": "npx jest ./tests/01-ratelimitter.spec.js",
+    "test-requestcount": "npx jest ./tests/01-requestcount.spec.js",
+    "test-authmiddleware": "npx jest ./tests/02-authmiddleware.spec.js",
+    "test-logIncomingRequests": "npx jest ./tests/02-logIncomingRequests.spec.js"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.23.3",
+    "eslint-plugin-jest": "^27.6.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "ts-node": "^10.9.2"
+  }
+}
